@@ -1,5 +1,7 @@
-*
-!target/*-runner
-!target/*-runner.jar
-!target/lib/*
-!target/quarkus-app/*
+# Exclude IDE, Git, and build output
+.git
+.idea
+*.iml
+.vscode
+target
+.mvn/wrapper/maven-wrapper.jar
